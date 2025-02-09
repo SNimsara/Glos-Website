@@ -1,0 +1,24 @@
+.home{
+    color: #E9E6CC;
+}
+
+.line1{
+    padding: 220px 0 15px 150px;
+    font-size: 45px;
+}
+
+.line2{
+    padding-left: 150px;
+    font-size: 45px;
+}
+
+.button{
+    height: 40px;
+    width: 160px;
+    background-color: #212E24;
+    color: #E9E6CC;
+    font-size: 15px;
+    border-radius: 8px;
+    border: solid #E9E6CC 1px;
+    margin: 45px 0 0 150px;
+}
