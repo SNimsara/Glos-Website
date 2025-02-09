@@ -1,3 +1,5 @@
+/*for section 1 with home page*/
+
 .line1{
     padding: 220px 0 15px 150px;
     font-size: 45px;
@@ -17,10 +19,22 @@
     color: #E9E6CC;
     font-size: 15px;
     border-radius: 8px;
-    border: solid #E9E6CC 1px;
+    border: solid #E9E6CC 2px;
     margin: 45px 0 0 150px;
+    font-weight: 600;
     cursor: pointer;
+    transition: 0.3s;
 }
+
+.h-button:hover{
+    transform: scale(1.05);
+    background-color: #E9E6CC;
+    color: #212E24;
+    font-weight: 600;
+    border: solid #212E24;
+}
+
+/*for best selling section*/
 
 .items img{
     height: 450px;
@@ -58,11 +72,24 @@
     color: #E9E6CC;
     font-size: 15px;
     border-radius: 8px;
-    border: solid #E9E6CC 1px;
+    border: solid #E9E6CC 2px;
     align-items: center;
     cursor: pointer;
-    margin: 80px 45% 0 45%;
+    margin: 80px 44% 0 45%;
+    font-weight: 600;
+    transition: 0.3s;
 }
+
+.all-button:hover{
+    transform: scale(1.05);
+    background-color: #E9E6CC;
+    color: #212E24;
+    font-weight: 600;
+    border: solid #212E24 2px;
+}
+
+
+/*for best section 3 - custom creation*/
 
 .line3{
     padding: 120px 10px 20px 55%;
@@ -83,8 +110,17 @@
     color: #212E24;
     font-size: 15px;
     border-radius: 8px;
-    border: solid #212E24 1px;
+    border: solid #212E24 2px;
     margin: 55px 0 0 55%;
     cursor: pointer;
     font-weight: 600;
+    transition: 0.3s;
+}
+
+.line3-button:hover{
+    transform: scale(1.05);
+    background-color: #212E24;
+    color: #E9E6CC;
+    font-weight: 600;
+    border: solid #E9E6CC 2px;
 }

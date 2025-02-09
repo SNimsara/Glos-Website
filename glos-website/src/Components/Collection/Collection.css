@@ -1,0 +1,53 @@
+.collection{
+    padding: 100px 0;
+}
+
+.card{
+    height: 445px;
+    width: 300px;
+    background-color: #F4F4F4;
+    border-radius: 8px;
+}
+
+.card img{
+    height: 350px;
+    width: 280px;
+    object-fit: cover;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.card img:hover{
+    transform: scale(1.03);
+}
+
+.c-sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.c-sec2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px 0 100px;
+}
+
+.card h5{
+    padding: 3px 0 10px 10px;
+    font-size: 18px;
+}
+
+.card button{
+    font-size: 12px;
+    border: none;
+    font-weight: 600;
+    padding: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    transform: scale(1.05);
+}

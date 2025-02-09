@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <div className="home">
       <div
+        className="section1"
         style={{
           backgroundImage: `url(${bghome})`,
           backgroundSize: "cover",
@@ -58,6 +59,7 @@ const Home = () => {
       </div>
 
       <div
+        className="section3"
         style={{
           backgroundImage: `url(${homebg2})`,
           backgroundSize: "cover",

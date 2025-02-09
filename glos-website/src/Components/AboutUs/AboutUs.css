@@ -1,0 +1,22 @@
+.about-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px 0 250px;
+}
+
+.about-sec img{
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.about-sec p{
+    text-align: justify;
+    padding-left: 120px;
+}
+
+.about-sec h5{
+    padding: 0  0 40px 120px;
+    font-size: 18px;
+
+}

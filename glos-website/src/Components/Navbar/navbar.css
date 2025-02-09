@@ -24,3 +24,8 @@
     font-size: 18px;
     cursor: pointer;
 }
+
+.anc-link{
+    text-decoration: none;
+    color: #E9E6CC;
+}
