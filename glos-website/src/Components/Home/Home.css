@@ -1,18 +1,16 @@
-.home{
-    color: #E9E6CC;
-}
-
 .line1{
     padding: 220px 0 15px 150px;
     font-size: 45px;
+    color: #E9E6CC;
 }
 
 .line2{
     padding-left: 150px;
     font-size: 45px;
+    color: #E9E6CC;
 }
 
-.button{
+.h-button{
     height: 40px;
     width: 160px;
     background-color: #212E24;
@@ -21,4 +19,72 @@
     border-radius: 8px;
     border: solid #E9E6CC 1px;
     margin: 45px 0 0 150px;
+    cursor: pointer;
+}
+
+.items img{
+    height: 450px;
+    width: 600px;
+    object-fit: cover; /*fit image in the frame*/
+    padding-bottom: 30px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-p{
+    text-align: justify;
+    font-size: 12px;
+    width: 600px;
+    padding: 30px 0 30px 0;
+}
+
+.best-selling{
+    padding: 100px 80px;
+}
+
+.topic{
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.all-button{
+    height: 40px;
+    width: 160px;
+    background-color: #212E24;
+    color: #E9E6CC;
+    font-size: 15px;
+    border-radius: 8px;
+    border: solid #E9E6CC 1px;
+    align-items: center;
+    cursor: pointer;
+    margin: 80px 45% 0 45%;
+}
+
+.line3{
+    padding: 120px 10px 20px 55%;
+    font-size: 40px;
+    color: #E9E6CC;
+}
+
+.line3-p{
+    color: #E9E6CC;
+    font-size: 13px;
+    padding-left: 55%;
+}
+
+.line3-button{
+    height: 40px;
+    width: 160px;
+    background-color: #E9E6CC;
+    color: #212E24;
+    font-size: 15px;
+    border-radius: 8px;
+    border: solid #212E24 1px;
+    margin: 55px 0 0 55%;
+    cursor: pointer;
+    font-weight: 600;
 }

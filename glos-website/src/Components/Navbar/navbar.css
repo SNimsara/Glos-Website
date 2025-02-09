@@ -22,4 +22,5 @@
     list-style: none;
     gap: 70px;
     font-size: 18px;
+    cursor: pointer;
 }
