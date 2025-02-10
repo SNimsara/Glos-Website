@@ -1,7 +1,10 @@
+.about-us{
+    padding-top: 80px;
+}
 .about-sec{
     display: flex;
     justify-content: space-between;
-    padding: 0 250px 0 250px;
+    padding: 0 250px 130px 250px;
 }
 
 .about-sec img{

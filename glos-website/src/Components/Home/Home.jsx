@@ -7,7 +7,7 @@ import homebg2 from "../../assets/homebg2.png";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div id="home" className="home">
       <div
         className="section1"
         style={{

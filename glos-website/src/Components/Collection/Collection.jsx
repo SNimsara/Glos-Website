@@ -11,7 +11,7 @@ import cimg8 from "../../assets/cimg8.jpeg";
 
 const Collection = () => {
   return (
-    <div className="collection">
+    <div id="collection" className="collection">
       <h1 className="topic">OUR COLLECTION</h1>
 
       <div className="c-section">

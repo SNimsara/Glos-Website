@@ -19,12 +19,12 @@ const Navbar = () => {
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anc-link" offset={70} href="#about-us">
+          <AnchorLink className="anc-link" offset={70} href="#about">
             About Us
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anc-link" offset={70} href="#home">
+          <AnchorLink className="anc-link" offset={70} href="#contact">
             Contact
           </AnchorLink>
         </li>
