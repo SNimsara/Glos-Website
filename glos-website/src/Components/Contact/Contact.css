@@ -82,6 +82,7 @@
     border: solid white 4px;
     background-color: white;
     border-radius: 50%;
+    transition: 0.3s;
 }
 
 .icon:hover{
